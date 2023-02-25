@@ -1,47 +1,44 @@
 {
-  "name": "ecma-iceclient",
-  "description": "Node.js module for parsing and/or injecting ICY metadata",
-  "version": "2.5.1",
-  "author": "Nathan Rajlich <nathan@tootallnate.net>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mo-g/ecme-iceclient.git"
-  },
-  "license": "MIT",
-  "keywords": [
-    "icy",
-    "shoutcast",
-    "icecast",
-    "radio",
-    "internet",
-    "metadata",
-    "stream"
-  ],
-  "dependencies": {
-    "debug": "2",
-    "follow-redirects": "^1.7.0",
-    "readable-stream": "2",
-    "stream-parser": "^0.3.1"
-  },
-  "contributors": [
-    "mo-g <mo-g@spindoctor.dev> (https://github.com/mo-g)",
-    "ZaidulinKirill <zaidulinkirill@gmail.com>",
-    "Brandon Roberson <broberson@gmail.com>",
-    "Benjamin Leuckefeld <code@deratrox.de>",
-    "Angel Nunez Mencias <ANUNEZ@de.ibm.com>",
-    "julien <julien.genestoux@gmail.com>",
-    "Michael Hanney <mhanney@atomicpunk.(none)>",
-    "Alexander Shtuchkin <ashtuchkin@gmail.com>",
-    "Exhabition <lukeweerheim@hotmail.com>"
-  ],
-  "devDependencies": {
-    "mocha": "*"
-  },
-  "main": "./index.js",
-  "scripts": {
-    "test": "mocha --reporter spec"
-  },
-  "engines": {
-    "node": "*"
-  }
+    "name": "ecma-iceclient",
+    "description": "ECMAScript module for playing IceCast streams on Nodejs",
+    "version": "3.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mo-g/ecma-iceclient.git"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [
+        "icy",
+        "shoutcast",
+        "icecast",
+        "radio",
+        "internet",
+        "metadata",
+        "stream"
+    ],
+    "author": "mo-g <mo-g@spindoctor.dev> (https://github.com/mo-g)",
+    "contributors": [
+        "Nathan Rajlich <nathan@tootallnate.net>",
+        "ZaidulinKirill <zaidulinkirill@gmail.com>",
+        "Brandon Roberson <broberson@gmail.com>",
+        "Benjamin Leuckefeld <code@deratrox.de>",
+        "Angel Nunez Mencias <ANUNEZ@de.ibm.com>",
+        "julien <julien.genestoux@gmail.com>",
+        "Michael Hanney <mhanney@atomicpunk.(none)>",
+        "Alexander Shtuchkin <ashtuchkin@gmail.com>",
+        "Exhabition <lukeweerheim@hotmail.com>"
+    ],
+    "dependencies": {
+        "follow-redirects": "^1.7.0",
+        "readable-stream": "2",
+        "stream-parser": "^0.3.1"
+    },
+    "devDependencies": {
+    },
+    "main": "./index.js",
+    "scripts": {
+    },
+    "engines": {
+        "node": "*"
+    }
 }

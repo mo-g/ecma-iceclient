@@ -1,14 +1,10 @@
-node-icy
+ecma-iceclient
 ========
-### Node.js module for parsing and/or injecting [ICY metadata][protocol]
-[![Build Status](https://travis-ci.org/TooTallNate/node-icy.svg?branch=master)](https://travis-ci.org/TooTallNate/node-icy)
+### Node.js module for playing Icecast Streams
 
 This module offers a `Reader` class for retrieving the raw audio data and
 parsing the metadata from an ICY stream (commonly [SHOUTcast][] or
 [Icecast][] broadcasts).
-
-There's also a `Writer` class that allows you to inject your own metadata into a
-data stream, which can then be displayed by another ICY client (like VLC).
 
 But you'll probably be most interested in the `Client` class that builds off of
 node's core `http` module, except this version works with servers that return
@@ -29,7 +25,7 @@ Installation
 Install with `npm`:
 
 ``` bash
-$ npm install icy
+$ npm install ecma-iceclient
 ```
 
 
