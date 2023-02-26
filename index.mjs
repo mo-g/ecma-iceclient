@@ -4,14 +4,14 @@
  */
 
 exports.parse = require('./lib/parse');
-exports.stringify = require('./lib/stringify');
+exports.stringify = require('./lib/stringify.mjs');
 
 /**
  * Low level transformation classes.
  */
 
 exports.Reader = require('./lib/reader');
-exports.Writer = require('./lib/writer');
+exports.Writer = require('./lib/writer.mjs');
 
 /**
  * ICY HTTP client interface. Extends the core "http" module's client
